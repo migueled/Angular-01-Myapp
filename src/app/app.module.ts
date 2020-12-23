@@ -9,13 +9,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { JumboComponent } from './components/body/jumbo/jumbo.component';
 import { PortafolioComponent } from './components/body/portafolio/portafolio.component';
 import { TextoComponent } from './components/body/texto/texto.component';
+import { CardComponent } from './components/body/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Appnavbar,
     FooterComponent,    
-    JumboComponent, PortafolioComponent, TextoComponent
+    JumboComponent, PortafolioComponent, TextoComponent, CardComponent
   ],
   imports: [
     BrowserModule    
