@@ -5,11 +5,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './components/app/app.component';
 
 import { Appnavbar } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Appnavbar
+    Appnavbar,
+    FooterComponent
   ],
   imports: [
     BrowserModule    
