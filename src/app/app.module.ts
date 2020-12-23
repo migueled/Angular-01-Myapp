@@ -8,13 +8,14 @@ import { Appnavbar } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { JumboComponent } from './components/body/jumbo/jumbo.component';
 import { PortafolioComponent } from './components/body/portafolio/portafolio.component';
+import { TextoComponent } from './components/body/texto/texto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Appnavbar,
     FooterComponent,    
-    JumboComponent, PortafolioComponent
+    JumboComponent, PortafolioComponent, TextoComponent
   ],
   imports: [
     BrowserModule    
