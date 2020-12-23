@@ -10,13 +10,14 @@ import { JumboComponent } from './components/body/jumbo/jumbo.component';
 import { PortafolioComponent } from './components/body/portafolio/portafolio.component';
 import { TextoComponent } from './components/body/texto/texto.component';
 import { CardComponent } from './components/body/card/card.component';
+import { CarruselComponent } from './components/body/carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Appnavbar,
     FooterComponent,    
-    JumboComponent, PortafolioComponent, TextoComponent, CardComponent
+    JumboComponent, PortafolioComponent, TextoComponent, CardComponent, CarruselComponent
   ],
   imports: [
     BrowserModule    
