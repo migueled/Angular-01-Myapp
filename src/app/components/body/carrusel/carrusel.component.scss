@@ -1,0 +1,40 @@
+.carousel {
+    .carousel-inner {
+        height: 400px;
+        margin: 20px 0px;
+        h5 {
+            font-size: 5rem;
+        }
+        p {
+            font-size: 2.5rem;
+        }
+        .carousel-caption {
+            padding-top: 6rem;
+            height: 97%;
+        }
+        .c1 {
+            h5 {
+                color: #66B3E3;
+            }
+            p {
+                color: #66B3E3;
+            }
+        }
+        .c2 {
+            h5 {
+                color: #E37D7D;
+            }
+            p {
+                color: #E37D7D;
+            }
+        }
+        .c3 {
+            h5 {
+                color: #4FAAE3;
+            }
+            p {
+                color: #4FAAE3;
+            }
+        }
+    }
+}
